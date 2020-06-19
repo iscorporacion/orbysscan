@@ -40,9 +40,9 @@ class _MyHomePageState extends State<MyHomePage> {
     try {
       String qrResult = await BarcodeScanner.scan();
       print(qrResult);
-      // setState(() {
-      //   result = qrResult;
-      // });
+      setState(() {
+        result = qrResult;
+      });
     } on PlatformException catch (ex) {
       print("Error detected");
       if (ex.code == BarcodeScanner.CameraAccessDenied) {

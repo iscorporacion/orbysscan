@@ -1,4 +1,4 @@
-#Thu Jun 18 17:16:22 COT 2020
+#Thu Jun 18 22:19:07 COT 2020
 base.0=D\:\\NODE\\flutter\\orbysscan\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
