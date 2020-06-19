@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.orbysscan"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:2:3-64
+14-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:2:20-62
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:3:3-62
+15-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:3:20-60
+16
+17    <application
+17-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:4:3-25:17
+18        android:name="io.flutter.app.FlutterApplication"
+18-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:4:16-64
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\thayl\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:4:91-125
+22        android:label="orbysscan" >
+22-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:4:65-90
+23        <activity
+23-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:5:5-21:16
+24            android:name="com.example.orbysscan.MainActivity"
+24-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:5:15-43
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:5:110-260
+26            android:hardwareAccelerated="true"
+26-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:5:261-295
+27            android:launchMode="singleTop"
+27-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:5:44-74
+28            android:theme="@style/LaunchTheme"
+28-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:5:75-109
+29            android:windowSoftInputMode="adjustResize" >
+29-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:5:296-338
+30
+31            <!--
+32           Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:10:7-114
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:10:18-73
+39                android:resource="@style/NormalTheme" />
+39-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:10:74-111
+40            <!--
+41           Displays an Android View that continues showing the launch screen
+42                 Drawable until Flutter paints its first frame, then this splash
+43                 screen fades out. A splash screen is useful to avoid any visual
+44                 gap between the end of Android's launch screen and the painting of
+45                 Flutter's first frame.
+46            -->
+47            <meta-data
+47-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:16:7-132
+48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+48-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:16:18-82
+49                android:resource="@drawable/launch_background" />
+49-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:16:83-129
+50
+51            <intent-filter>
+51-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:17:7-20:23
+52                <action android:name="android.intent.action.MAIN" />
+52-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:18:9-60
+52-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:18:17-58
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:19:9-68
+54-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:19:19-66
+55            </intent-filter>
+56        </activity>
+57        <!--
+58         Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:24:5-68
+62            android:name="flutterEmbedding"
+62-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:24:16-47
+63            android:value="2" />
+63-->D:\NODE\flutter\orbysscan\android\app\src\main\AndroidManifest.xml:24:48-65
+64
+65        <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity" />
+65-->[:barcode_scan] D:\NODE\flutter\orbysscan\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-91
+65-->[:barcode_scan] D:\NODE\flutter\orbysscan\build\barcode_scan\intermediates\library_manifest\debug\AndroidManifest.xml:14:19-88
+66    </application>
+67
+68</manifest>
